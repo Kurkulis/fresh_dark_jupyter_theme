@@ -2274,7 +2274,6 @@ div.rendered_html h4,
 div.text_cell_render h5,
 div.rendered_html h5 {
   font-family: sans-serif;
-  margin: 0.4em .2em .3em .2em !important;
 }
 
 .rendered_html h1:first-child,
@@ -2290,42 +2289,42 @@ div.rendered_html h5 {
 .rendered_html h1,
 .text_cell_render h1 {
   color: #d4d4d4 !important;
-  font-size: 200%;
-  text-align: left;
+  font-size: 185.7%;
+  text-align: center;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .rendered_html h2,
 .text_cell_render h2 {
   color: #d4d4d4 !important;
-  font-size: 170%;
+  font-size: 157.1%;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .rendered_html h3,
 .text_cell_render h3 {
   color: #d4d4d4 !important;
-  font-size: 140%;
+  font-size: 128.6%;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .rendered_html h4,
 .text_cell_render h4 {
   color: #d4d4d4 !important;
-  font-size: 110%;
+  font-size: 100%;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .rendered_html h5,
 .text_cell_render h5 {
   color: #d4d4d4 !important;
   font-size: 100%;
-  font-style: normal;
-  font-weight: normal;
+  font-style: italic;
+  font-weight: bold;
 }
 
 hr {
