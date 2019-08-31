@@ -227,7 +227,7 @@ span#login_widget>.button,
   color: #d4d4d4;
   background: transparent;
   background-color: transparent;
-  border: 2px solid #111111;
+  border: 2px solid #010101;
   font-weight: normal;
   box-shadow: none;
   text-shadow: none;
@@ -351,8 +351,8 @@ body>#header {
 #button-select-all.focus,
 #button-select-all:active.focus,
 #button-select-all.active.focus {
-  background-color: #111111 !important;
-  background: #111111 !important;
+  background-color: #010101 !important;
+  background: #010101 !important;
 }
 
 button#tree-selector-btn {
@@ -1028,9 +1028,9 @@ div.kse-dropdown>.dropdown-menu,
 .btn-default {
   font-family: sans-serif;
   color: #d4d4d4;
-  background: #111111;
-  background-color: #111111;
-  border: 2px solid #111111;
+  background: #010101;
+  background-color: #010101;
+  border: 2px solid #010101;
   font-weight: normal;
   box-shadow: none;
   text-shadow: none;
@@ -1091,7 +1091,7 @@ div.kse-dropdown>.dropdown-menu,
 .btn-default:active.focus,
 .btn-default.active.focus {
   color: #8adc4b !important;
-  background-color: #111111;
+  background-color: #010101;
   border-color: #546745 !important;
   transition: 2000ms ease;
 }
@@ -1228,7 +1228,7 @@ div.dynamic-buttons>button,
   vertical-align: bottom;
   margin-left: -.5ex;
   display: inline-table;
-  border: solid 0px #111111;
+  border: solid 0px #010101;
   margin-bottom: -1ex;
 }
 
@@ -1561,9 +1561,9 @@ select.form-control.select-xs {
   font-size: 92%;
   margin-left: 10px;
   padding: 0px;
-  background: #111111 !important;
-  background-color: #111111 !important;
-  border: 2px solid #111111 !important;
+  background: #010101 !important;
+  background-color: #010101 !important;
+  border: 2px solid #010101 !important;
 }
 
 .form-control:focus {
@@ -1606,13 +1606,13 @@ div.output.output_scroll {
 ::-webkit-scrollbar {
   width: 11px;
   max-height: 9px;
-  background-color: #292d3a;
+  background-color: #2e2e2e;
   border-radius: 3px;
   border: none;
 }
 
 ::-webkit-scrollbar-track {
-  background: #292d3a;
+  background: #2e2e2e;
   border: none;
   width: 11px;
   max-height: 9px;
@@ -1621,7 +1621,7 @@ div.output.output_scroll {
 ::-webkit-scrollbar-thumb {
   border-radius: 2px;
   border: none;
-  background: #3f4555;
+  background: #525252;
   background-clip: content-box;
   width: 11px;
 }
@@ -1661,8 +1661,8 @@ a {
 }
 
 div.input_area {
-  background-color: #111111;
-  background: #111111;
+  background-color: #010101;
+  background: #010101;
   padding-right: 1.2em;
   border: 0px;
   border-radius: 0px;
@@ -1672,16 +1672,16 @@ div.input_area {
 
 div.cell {
   padding: 0px;
-  background: #111111;
-  background-color: #111111;
+  background: #010101;
+  background-color: #010101;
   border: medium solid #222222;
   border-radius: 4px;
   top: 0;
 }
 
 div.cell.selected {
-  background: #111111;
-  background-color: #111111;
+  background: #010101;
+  background-color: #010101;
   border: medium solid #222222;
   padding: 0px;
   border-radius: 5px;
@@ -1689,16 +1689,16 @@ div.cell.selected {
 
 .edit_mode div.cell.selected {
   padding: 0px;
-  background: #111111;
-  background-color: #111111;
+  background: #010101;
+  background-color: #010101;
   border: medium solid #222222;
   border-radius: 5px;
 }
 
 div.cell.edit_mode {
   padding: 0px;
-  background: #111111;
-  background-color: #111111;
+  background: #010101;
+  background-color: #010101;
 }
 
 div.CodeMirror-sizer {
@@ -1715,7 +1715,7 @@ div.cell.selected:before,
 .edit_mode div.cell.selected:before,
 div.cell.selected:before,
 div.cell.selected.jupyter-soft-selected:before {
-  background: #111111 !important;
+  background: #010101 !important;
   border: none;
   border-radius: 3px;
   position: absolute;
@@ -1730,13 +1730,13 @@ div.cell.text_cell.selected::before,
 .edit_mode div.cell.text_cell.selected:before,
 div.cell.text_cell.selected:before,
 div.cell.text_cell.selected.jupyter-soft-selected:before {
-  background: #111111 !important;
-  background-color: #111111 !important;
+  background: #010101 !important;
+  background-color: #010101 !important;
   border-color: #d4d4d4 !important;
 }
 
 div.cell.code_cell .input {
-  border-left: 5px solid #111111 !important;
+  border-left: 5px solid #010101 !important;
   border-radius: 3px;
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px;
@@ -1770,7 +1770,7 @@ div.cell.selected.jupyter-soft-selected {
 }
 
 div.cell.selected.jupyter-soft-selected .input {
-  border-left: 5px solid #111111 !important;
+  border-left: 5px solid #010101 !important;
 }
 
 div.cell.selected.jupyter-soft-selected {
@@ -1788,7 +1788,7 @@ div.cell.code_cell.selected .input {
 div.cell.selected.jupyter-soft-selected .prompt,
 div.cell.text_cell.selected.jupyter-soft-selected .prompt {
   top: 0;
-  border-left: #111111 !important;
+  border-left: #010101 !important;
   border-radius: 2px;
 }
 
@@ -1830,7 +1830,7 @@ div.prompt,
 
 div.prompt.input_prompt {
   font-size: 9pt !important;
-  background-color: #111111;
+  background-color: #010101;
   border-top: 0px;
   border-top-right-radius: 0px;
   border-bottom-left-radius: 0px;
@@ -1905,7 +1905,7 @@ div.cell.code_cell.rendered.unselected.jupyter-soft-selected .run_this_cell:hove
 }
 
 div.output_wrapper {
-  background-color: #000000;
+  background-color: #222222;
   border: 0px;
   left: 0px;
   margin-bottom: 0em;
@@ -1919,7 +1919,7 @@ div.output_subarea.output_text {
   font-family: monospace, monospace;
   font-size: 8.5pt !important;
   line-height: 150% !important;
-  background-color: #000000;
+  background-color: #222222;
   color: #d4d4d4;
   border-top-right-radius: 0px;
   border-top-left-radius: 0px;
@@ -1943,8 +1943,8 @@ div.output_html {
   font-family: monospace, monospace;
   font-size: 8.5pt;
   color: #dbdfef;
-  background-color: #000000;
-  background: #000000;
+  background-color: #222222;
+  background: #222222;
 }
 
 div.output_subarea {
@@ -1971,7 +1971,7 @@ div.btn.btn-default.output_collapsed:hover {
 div.prompt.output_prompt {
   font-family: monospace, monospace;
   font-weight: bold !important;
-  background-color: #000000;
+  background-color: #222222;
   color: transparent;
   border-bottom-left-radius: 4px;
   border-top-right-radius: 0px;
@@ -1985,7 +1985,7 @@ div.prompt.output_prompt {
 div.out_prompt_overlay.prompt {
   font-family: monospace, monospace;
   font-weight: bold !important;
-  background-color: #000000;
+  background-color: #222222;
   border-bottom-left-radius: 2px;
   border-top-right-radius: 0px;
   border-top-left-radius: 0px;
@@ -2018,14 +2018,14 @@ div.cell.code_cell .output_prompt {
 div.cell.selected .output_prompt,
 div.cell.selected .out_prompt_overlay.prompt {
   border-left: 5px solid #d4d4d4;
-  border-right: 2px solid #000000;
+  border-right: 2px solid #222222;
   border-radius: 0px !important;
 }
 
 .edit_mode div.cell.selected .output_prompt,
 .edit_mode div.cell.selected .out_prompt_overlay.prompt {
   border-left: 5px solid #d4d4d4;
-  border-right: 2px solid #000000;
+  border-right: 2px solid #222222;
   border-radius: 0px !important;
 }
 
@@ -2036,8 +2036,8 @@ div.text_cell_render {
   font-size: 13pt;
   line-height: 130% !important;
   color: #d4d4d4;
-  background: #111111;
-  background-color: #111111;
+  background: #010101;
+  background-color: #010101;
   border-radius: 0px;
 }
 
@@ -2056,8 +2056,8 @@ div.cell.text_cell .CodeMirror-lines {
 
 div.cell.text_cell.unrendered div.input_area,
 div.cell.text_cell.rendered div.input_area {
-  background-color: #111111;
-  background: #111111;
+  background-color: #010101;
+  background: #010101;
   border: 0px;
   border-radius: 2px;
   font-weight: 300;
@@ -2071,32 +2071,32 @@ div.cell.text_cell .CodeMirror pre {
 div.cell.text_cell.rendered.selected {
   font-family: sans-serif;
   line-height: 170% !important;
-  background: #111111;
-  background-color: #111111;
+  background: #010101;
+  background-color: #010101;
   border-radius: 0px;
 }
 
 div.cell.text_cell.unrendered.selected {
   font-family: sans-serif;
   line-height: 170% !important;
-  background: #111111;
-  background-color: #111111;
+  background: #010101;
+  background-color: #010101;
   border-radius: 0px;
 }
 
 div.cell.text_cell.selected {
   font-family: sans-serif;
   line-height: 170% !important;
-  background: #111111;
-  background-color: #111111;
+  background: #010101;
+  background-color: #010101;
   border-radius: 0px;
 }
 
 .edit_mode div.cell.text_cell.selected {
   font-family: sans-serif;
   line-height: 170% !important;
-  background: #111111;
-  background-color: #111111;
+  background: #010101;
+  background-color: #010101;
   border-radius: 0px;
 }
 
@@ -2105,8 +2105,8 @@ div.text_cell.unrendered.selected,
 div.edit_mode div.text_cell.unrendered {
   font-family: sans-serif;
   line-height: 170% !important;
-  background: #111111;
-  background-color: #111111;
+  background: #010101;
+  background-color: #010101;
   border-radius: 0px;
 }
 
@@ -2124,9 +2124,9 @@ div.cell.text_cell.rendered .prompt {
   text-align: right !important;
   min-width: 14.5ex !important;
   width: 14.5ex !important;
-  background-color: #111111;
+  background-color: #010101;
   border-right: 2px solid #a4a4a4;
-  border-left: 4px solid #111111;
+  border-left: 4px solid #010101;
 }
 
 div.cell.text_cell.unrendered .prompt {
@@ -2138,8 +2138,8 @@ div.cell.text_cell.unrendered .prompt {
   min-width: 14.5ex !important;
   width: 14.5ex !important;
   border-right: 2px solid #a4a4a4;
-  border-left: 4px solid #111111;
-  background-color: #111111;
+  border-left: 4px solid #010101;
+  background-color: #010101;
 }
 
 div.cell.text_cell.rendered .prompt {
@@ -2155,7 +2155,7 @@ div.cell.text_cell.rendered.selected .prompt {
 div.text_cell.unrendered.selected .prompt,
 div.text_cell.rendered.selected .prompt {
   top: 0;
-  background: #111111;
+  background: #010101;
   border-left: 4px solid #d4d4d4;
   border-right: 2px solid #a4a4a4;
 }
@@ -2414,8 +2414,8 @@ div#_vivaldi-spatnav-focus-indicator._vivaldi-spatnav-focus-indicator {
 }
 
 div.widget-area {
-  background-color: #000000;
-  background: #000000;
+  background-color: #222222;
+  background: #222222;
   color: #d4d4d4;
 }
 
@@ -2614,7 +2614,7 @@ div.nbext-readme>.nbext-readme-contents>.rendered_html {
   line-height: 145%;
   padding: 1em 1em;
   color: #d4d4d4;
-  background-color: #111111;
+  background-color: #010101;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -2711,7 +2711,7 @@ button#refresh_running_list {
 
 mark,
 .mark {
-  background-color: #111111;
+  background-color: #010101;
   color: #d4d4d4;
   padding: .15em;
 }
@@ -2817,9 +2817,9 @@ label#Keyword-Filter {
 }
 
 .ui-widget-content {
-  background: #111111;
-  background-color: #111111;
-  border: 2px solid #111111;
+  background: #010101;
+  background-color: #010101;
+  border: 2px solid #010101;
   color: #d4d4d4;
 }
 
@@ -3180,7 +3180,7 @@ div#short-key-bindings-intro.well,
 
 #texteditor-backdrop #texteditor-container {
   padding: 0px;
-  background-color: #111111;
+  background-color: #010101;
   box-shadow: none;
 }
 
@@ -3197,7 +3197,7 @@ div#short-key-bindings-intro.well,
   font-size: 11pt;
   line-height: 170%;
   color: #d4d4d4;
-  background: #111111;
+  background: #010101;
   padding: 0.4em;
   border-radius: 2px;
   -webkit-box-shadow: none;
@@ -3205,7 +3205,7 @@ div#short-key-bindings-intro.well,
 }
 
 .terminal .xterm-viewport {
-  background-color: #111111;
+  background-color: #010101;
   color: #d4d4d4;
   overflow-y: auto;
 }
@@ -3259,12 +3259,12 @@ div#short-key-bindings-intro.well,
 }
 
 .terminal .xterm-bg-color-15 {
-  background-color: #111111;
+  background-color: #010101;
 }
 
 .terminal:not(.xterm-cursor-style-underline):not(.xterm-cursor-style-bar) .terminal-cursor {
   background-color: #d4d4d4;
-  color: #111111;
+  color: #010101;
 }
 
 .terminal:not(.focus) .terminal-cursor {
@@ -3317,8 +3317,8 @@ div#pager #pager-contents {
 
 div#pager pre {
   color: #d4d4d4 !important;
-  background: #111111 !important;
-  background-color: #111111 !important;
+  background: #010101 !important;
+  background-color: #010101 !important;
   padding: 0.4em;
 }
 
@@ -3450,7 +3450,7 @@ div.tooltiptext.bigtooltip {
 .cm-s-ipython.CodeMirror {
   font-family: monospace, monospace;
   font-size: 11pt;
-  background: #111111;
+  background: #010101;
   color: #d4d4d4;
   border-radius: 2px;
   font-style: normal;
@@ -3722,8 +3722,8 @@ body :focus .MathJax {
 }
 
 .completions select {
-  background: #111111;
-  background-color: #111111;
+  background: #010101;
+  background-color: #010101;
   outline: none;
   border: none;
   padding: 0px;
